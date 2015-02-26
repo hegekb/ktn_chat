@@ -9,7 +9,6 @@ class ClientHandler(SocketServer.BaseRequestHandler):
     only connected clients, and not the server itself. If you want to write
     logic for the server, you must write it outside this class
     """
-    #basj
 
     def handle(self):
         """
