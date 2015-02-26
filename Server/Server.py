@@ -25,6 +25,7 @@ class ClientHandler(SocketServer.BaseRequestHandler):
             
             # TODO: Add handling of received payload from client
 
+    #Hei og hopp
 
 class ThreadedTCPServer(SocketServer.ThreadingMixIn, SocketServer.TCPServer):
     """
